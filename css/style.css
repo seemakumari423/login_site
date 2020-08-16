@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("file:///D:/login%20site/images/Beautiful-River.jpg");
+    background-repeat: no-repeat;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 40px;
+    background: #fff;
+    padding-top: 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    border-radius: 20px;
+   
+}
+.form-heading{
+    text-align: center;
+}
+.box img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.box h3{
+    margin: 0 0 30px;
+    padding: 0px;
+    color: #424242;
+    text-align: center;
+}.box p{
+    margin: 0 0 30px;
+    padding: 0px;
+    color: #424242;
+    text-align: center;
+}
+
+.box .input-box{
+    position: relative;
+}
+.box .input-box input{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #424242;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #525252;
+    outline: none;
+    background:transparent;
+}
+.box .input-box label{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #ccc;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .input-box i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #ccc;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .input-box input:focus~label,
+.box .input-box input:valid~label
+
+{
+    top: -20px !important;
+    left: 30px !important;
+    color: #03a9f4 !important;
+    font-size: 12px !important;
+}
+.box .input-box input:focus~i,
+.box .input-box input:valid~i
+{
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+}
+
+.box input[type="submit"]{
+    border:none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding:10px 20px;
+}

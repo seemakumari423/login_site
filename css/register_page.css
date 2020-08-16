@@ -1,0 +1,111 @@
+@charset "utf-8";
+ * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background-img img{
+    width: 100%;
+    height: auto;
+    background: no-repeat;
+    position: relative;
+    
+}
+.form-bg{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    background: #fff;
+    top: 20px;
+    margin-left: 35%;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+    
+}
+.form-bg img{
+    width: 150px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.form-bg p{
+    font-size: 18px;
+    font-weight: 500;
+    color:#9E9E9E;
+    margin-top: 20px;
+    
+}
+
+.input-container{
+    position: relative;
+}
+.input-container i {
+    position: absolute;
+    font-size: 20px;
+    color: #aaa;
+    top: 11px;
+    left: 98px;    
+}
+.form-design{
+    width: 70%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E7E9EB;
+    outline: none;
+    transition: .5s;
+    padding-left: 56px;
+}
+
+.form-design:focus +i{
+    color: dodgerBlue; 
+    transition: .5s;
+}
+
+.form-design:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.input-container .eye-position{
+    margin: 0px 250px;
+
+}
+.custom-control {
+    position: relative;
+    padding: 0px 0px 0 72px;
+}
+
+ .custom-checkbox:focus{
+     border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.custom-lable{
+    color:#9E9E9E;
+    font-size: 18px;
+}
+.text-right a{
+    padding: 0px 68px 0px 0px;
+}
+.login-btn{
+    background-color: dodgerblue;
+    border: none;
+    width: 70%;
+    height: 35px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    outline: none;
+    
+}
+.social-icon img{
+    width: 35px;
+    margin: 0 5px;
+}
+.social-icon span{
+    font-size: 15px;
+}
+.error{
+    color: red;
+}
